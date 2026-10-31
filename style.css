@@ -103,7 +103,7 @@ h1 {
 }
 
 em {
-  color: var(--blue);
+  color: var(--bg-color, orangered);
   font-family: "Newsreader", serif;
   font-weight: 400;
 }
@@ -193,7 +193,7 @@ h2 {
 
 .blue {
   background: var(--blue);
-  color: var(--lime);
+  color: var(--bg-color, gold);
 }
 
 .orange {
@@ -289,7 +289,7 @@ footer {
 }
 
 .footer-main em {
-  color: var(--lime);
+  color: var(--ink);
 }
 
 .button.light {
